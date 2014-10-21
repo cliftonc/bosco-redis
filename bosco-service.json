@@ -1,0 +1,17 @@
+{
+    "service": {
+        "type":"docker",
+        "name":"redis",
+        "docker":{
+            "image": "dockerfile/redis",
+            "HostConfig": {
+                "PortBindings": {
+                    "6379/tcp": [{
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "6379"
+                     }]
+                }
+            }
+        }
+    }
+}

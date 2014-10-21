@@ -1,0 +1,15 @@
+{
+  "name": "bosco-redis",
+  "version": "0.0.1",
+  "description": "An example of a docker definition for Bosco",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "bosco",
+    "docker"
+  ],
+  "author": "Clifton Cunningham <clifton.cunningham@gmail.com>",
+  "license": "MIT"
+}
